@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buzz Cafe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+	<nav>
+        <div class="row clearfix">
+        	<img src="images/logo.png" class="logo" />
+         <div class="main-nav">  
+            <ul class="list-nav animated slideInDown" id="check-class" >
+            	<li><a href="#">DELIVERY</a></li>
+                 <li><a href="#">HOW TO ORDER</a></li>
+                 <li><a href="#">CECK ORDER</a></li>
+                 <li><a href="#">SIGN UP</a></li>
+            </ul>
+            <a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+         </div>
+        </div>
+
+	</nav>
+	<br><br>
+	<div class="main">
+	<h1>WELCOME TO <span class="color-change">BUZZ CAFE</span>.<br>House of food lovers oo yess...</h1>
+	<div class="btn-f">
+	<a href="#" class="btn">Click to Order</a>
+	<a href="#" class="btn2">Show for More</a>
+</div>
+</div>
+</header>
+
+<footer></footer>
+<script type="text/javascript">
+	
+function slideshow(){
+   var x=document.getElementById('check-class');
+
+   if(x.style.display==="none"){
+   	x.style.display="block";
+   	//alert("show list");
+   }else{
+   x.style.display="none";
+}
+}
+
+</script>
+</body>
+</html>
